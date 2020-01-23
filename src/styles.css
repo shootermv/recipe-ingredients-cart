@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  color: #333;
+}
+body {
+  background-color: #81a69b;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px solid gray;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-items: start;
+}
+div.product {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  justify-content: start;
+  grid-gap: 5px;
+}
+ul {
+  display: grid;
+  padding: 5px;
+  align-items: center;
+  grid-template-columns: 125px repeat(5, 1fr) 30px;
+  justify-content: start;
+  grid-gap: 5px;
+}
+.product img {
+  height: 45px;
+}
+footer span {
+  margin-left: 4px;
+}
+footer button {
+  background: darkblue;
+  border: none;
+  color: #fff;
+  padding: 2px 5px;
+  margin-left: 3px;
+  cursor: pointer;
+}
