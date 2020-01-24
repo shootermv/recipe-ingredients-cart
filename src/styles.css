@@ -51,14 +51,39 @@ ul > div {
 .product img {
   height: 45px;
 }
+footer {
+  margin: 12px 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 footer span {
   margin-left: 4px;
 }
 footer button {
+  border-radius: 15px;
+  
+  display: flex;
   background: #33F292;
   border: none;
-  color: #fff;
-  padding: 2px 5px;
+  
   margin-left: 3px;
   cursor: pointer;
+}
+footer button:hover {
+  background:rgb(0, 158, 127);
+}
+footer button div:nth-child(1){
+  margin: 12px;
+}
+footer button div:nth-child(1) span, footer button div:nth-child(1) span b {
+  color: #fff;
+}
+.checkout-wrap {
+  color: #33F292;
+  background: #fff;
+  padding: 12px;
+  border-radius: 15px;
+  position: relative;
+  right: -4px;
 }
