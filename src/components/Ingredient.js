@@ -36,11 +36,13 @@ const Ingredient = ({
       })}
     </div>
     <div>{delivery}min</div>
-    <button onClick={onClick}>
-      <span role="img" aria-label="img">
-        🗑️
-      </span>
-    </button>
+    <div>
+      <button onClick={onClick}>
+        <span role="img" aria-label="img">
+          🗑️
+        </span>
+      </button>
+    </div>
   </>
 );
 
