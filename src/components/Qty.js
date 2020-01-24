@@ -5,7 +5,7 @@ import { incTodo, decTodo } from "../actions";
 const Qty = ({ quantity, id }) => {
   const dispatch = useDispatch();
   return (
-    <div>
+    <div className="qty-container">
       <button onClick={() => dispatch(decTodo(id))}>-</button>
       {quantity}
       <button onClick={() => dispatch(incTodo(id))}>+</button>

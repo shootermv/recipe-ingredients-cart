@@ -30,6 +30,7 @@ div.product {
   justify-content: start;
   grid-gap: 5px;
 }
+
 ul {
   display: grid;
   padding: 5px;
@@ -38,19 +39,39 @@ ul {
   justify-content: start;
   grid-gap: 5px 0;
 }
-ul > div, ul>h3{
+ul > div, ul>h3 {
   
   justify-self: stretch;
   align-self: stretch;
   display: grid;
   align-content: center;
 }
+ul div.qty-container-wrap {
+  justify-items: center;
+}
 ul > div {
   background: #fff;
 }
-.product img {
+ul .product img {
   height: 45px;
 }
+ul .qty-container{
+  background: #33F292;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+ul .qty-container button {
+  border:none;
+  background: transparent;
+  color: #fff;
+  margin: 0 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
 footer {
   margin: 12px 0;
   display: grid;
@@ -61,8 +82,7 @@ footer span {
   margin-left: 4px;
 }
 footer button {
-  border-radius: 15px;
-  
+  border-radius: 15px;  
   display: flex;
   background: #33F292;
   border: none;

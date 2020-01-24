@@ -26,7 +26,7 @@ const Ingredient = ({
     <div>
       <Store store={store} id={id} />
     </div>
-    <div>
+    <div className="qty-container-wrap">
       <Qty quantity={quantity} id={id} />
     </div>
     <div>
