@@ -1,14 +1,14 @@
 {
-  "main.css": "/recipe-ingredients-cart/static/css/main.d5515720.chunk.css",
-  "main.js": "/recipe-ingredients-cart/static/js/main.85ec44e0.chunk.js",
-  "main.js.map": "/recipe-ingredients-cart/static/js/main.85ec44e0.chunk.js.map",
+  "main.css": "/recipe-ingredients-cart/static/css/main.06c473a8.chunk.css",
+  "main.js": "/recipe-ingredients-cart/static/js/main.e60b9d12.chunk.js",
+  "main.js.map": "/recipe-ingredients-cart/static/js/main.e60b9d12.chunk.js.map",
   "runtime~main.js": "/recipe-ingredients-cart/static/js/runtime~main.1f3f1c4f.js",
   "runtime~main.js.map": "/recipe-ingredients-cart/static/js/runtime~main.1f3f1c4f.js.map",
   "static/js/2.2a55f6fd.chunk.js": "/recipe-ingredients-cart/static/js/2.2a55f6fd.chunk.js",
   "static/js/2.2a55f6fd.chunk.js.map": "/recipe-ingredients-cart/static/js/2.2a55f6fd.chunk.js.map",
   "index.html": "/recipe-ingredients-cart/index.html",
-  "precache-manifest.993a756298bc146c348d27ed67fca4ef.js": "/recipe-ingredients-cart/precache-manifest.993a756298bc146c348d27ed67fca4ef.js",
+  "precache-manifest.18cc12f32a999ecc3c786f6b345a383a.js": "/recipe-ingredients-cart/precache-manifest.18cc12f32a999ecc3c786f6b345a383a.js",
   "service-worker.js": "/recipe-ingredients-cart/service-worker.js",
-  "static/css/main.d5515720.chunk.css.map": "/recipe-ingredients-cart/static/css/main.d5515720.chunk.css.map",
+  "static/css/main.06c473a8.chunk.css.map": "/recipe-ingredients-cart/static/css/main.06c473a8.chunk.css.map",
   "static/media/beet.jpeg": "/recipe-ingredients-cart/static/media/beet.6c05eb07.jpeg"
 }

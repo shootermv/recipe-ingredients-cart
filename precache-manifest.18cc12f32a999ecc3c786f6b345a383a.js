@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d99c4c60c9a0321c3b77",
-    "url": "/recipe-ingredients-cart/static/css/main.d5515720.chunk.css"
+    "revision": "8eae9e18bb98e2be6c66",
+    "url": "/recipe-ingredients-cart/static/css/main.06c473a8.chunk.css"
   },
   {
-    "revision": "d99c4c60c9a0321c3b77",
-    "url": "/recipe-ingredients-cart/static/js/main.85ec44e0.chunk.js"
+    "revision": "8eae9e18bb98e2be6c66",
+    "url": "/recipe-ingredients-cart/static/js/main.e60b9d12.chunk.js"
   },
   {
     "revision": "4adc9304f369838af2b9",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/recipe-ingredients-cart/static/media/beet.6c05eb07.jpeg"
   },
   {
-    "revision": "621e78942a05066df028d843838f2fee",
+    "revision": "fde994ca1e662b3fe7783919ad3acb9f",
     "url": "/recipe-ingredients-cart/index.html"
   }
 ];
