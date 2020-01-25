@@ -1,7 +1,7 @@
 import React from "react";
 import Todo from "./Ingredient";
 
-const TodoList = ({ ingreds, toggleTodo }) => (
+const IngrendientList = ({ ingreds, toggleTodo }) => (
   <ul>
     <>
       <h3>Product</h3>
@@ -18,4 +18,4 @@ const TodoList = ({ ingreds, toggleTodo }) => (
   </ul>
 );
 
-export default TodoList;
+export default IngrendientList;

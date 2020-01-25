@@ -56,7 +56,7 @@ ul .product img {
   height: 45px;
 }
 ul .qty-container{
-  background: #33F292;
+  background: #999;
   color: #fff;
   padding: 3px 10px;
   border-radius: 12px;
@@ -70,7 +70,15 @@ ul .qty-container button {
   outline: none;
   cursor: pointer;
 }
-
+ul button.del {
+  border:none;
+  background: transparent;
+  cursor: pointer;
+  color: #999;
+}
+ul button.del:hover {
+  color: red;
+}
 /* FOOTER */
 footer {
   margin: 12px 0;

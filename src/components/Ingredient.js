@@ -37,10 +37,8 @@ const Ingredient = ({
     </div>
     <div>{delivery}min</div>
     <div>
-      <button onClick={onClick}>
-        <span role="img" aria-label="img">
-          🗑️
-        </span>
+      <button onClick={onClick} className="del">     
+        X       
       </button>
     </div>
   </>
