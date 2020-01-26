@@ -1,12 +1,12 @@
 
 
 
-export const incTodo = id => ({
+export const incQty = id => ({
   type: "INC_QUANTITY",
   id
 });
 
-export const decTodo = id => ({
+export const decQty = id => ({
   type: "DEC_QUANTITY",
   id
 });
