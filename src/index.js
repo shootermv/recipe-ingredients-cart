@@ -12,7 +12,7 @@ import beet from "./images/beet.jpeg";
 
 import "./styles.css";
 const init = {
-  todos: [
+  ingredients: [
     {
       id: 1,
       text: "lemons",
@@ -117,7 +117,7 @@ const init = {
     }
   ]
 };
-const store = createStore(rootReducer, init);
+const store = createStore(rootReducer, init, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 render(
   <Provider store={store}>

@@ -64,7 +64,7 @@ const stores = (state = []) => {
 };
 
 export default combineReducers({
-  todos: ingredients,
+  ingredients,
   visibilityFilter,
   stores
 });

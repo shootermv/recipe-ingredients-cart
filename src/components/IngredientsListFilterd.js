@@ -5,7 +5,7 @@ import IngrendientList from "./IngrendientList";
 
 export default function GetVisibleTodo() {
   const dispatch = useDispatch();
-  const ingreds = useSelector(({ todos }) => todos);
+  const ingreds = useSelector(({ ingredients }) => ingredients);
 
   const onDelete = useCallback(id => dispatch(removeIngredient(id)), [dispatch]);
 
