@@ -1,5 +1,5 @@
 import React from "react";
-import Todo from "./Ingredient";
+import Ingredient from "./Ingredient";
 
 const IngrendientList = ({ ingreds, toggleTodo }) => (
   <ul>
@@ -13,7 +13,7 @@ const IngrendientList = ({ ingreds, toggleTodo }) => (
       <h3>&nbsp;</h3>
     </>
     {ingreds.map(todo => (
-      <Todo key={todo.id} {...todo} onClick={() => toggleTodo(todo.id)} />
+      <Ingredient key={todo.id} {...todo} onClick={() => toggleTodo(todo.id)} />
     ))}
   </ul>
 );
