@@ -12,7 +12,7 @@ export const decTodo = id => ({
 });
 
 export const removeIngredient = id => ({
-  type: "DELETE_TODO",
+  type: "DELETE_INGREDIENT",
   id
 });
 

@@ -3,7 +3,7 @@ import { VisibilityFilters } from "../actions";
 
 const ingredients = (state = [], action) => {
   switch (action.type) {
-    case "DELETE_TODO":
+    case "DELETE_INGREDIENT":
       return state.filter(({ id }) => id !== action.id);
 
     case "INC_QUANTITY":
