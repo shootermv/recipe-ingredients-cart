@@ -1,7 +1,7 @@
 import React from "react";
 import Ingredient from "./Ingredient";
 
-const IngrendientList = ({ ingreds, toggleTodo }) => (
+const IngrendientList = ({ ingreds, removeIngredient }) => (
   <ul>
     <>
       <h3>Product</h3>
@@ -13,7 +13,7 @@ const IngrendientList = ({ ingreds, toggleTodo }) => (
       <h3>&nbsp;</h3>
     </>
     {ingreds.map(todo => (
-      <Ingredient key={todo.id} {...todo} onClick={() => toggleTodo(todo.id)} />
+      <Ingredient key={todo.id} {...todo} onClick={() => removeIngredient(todo.id)} />
     ))}
   </ul>
 );
