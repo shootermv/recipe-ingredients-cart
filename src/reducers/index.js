@@ -7,42 +7,42 @@ const ingredients = (state = [], action) => {
       return state.filter(({ id }) => id !== action.id);
 
     case "INC_QUANTITY":
-      return state.map(todo =>
-        todo.id === action.id
+      return state.map(ingredient =>
+        ingredient.id === action.id
           ? {
-              ...todo,
-              quantity: todo.quantity + 1,
-              total: todo.price * (todo.quantity + 1)
+              ...ingredient,
+              quantity: ingredient.quantity + 1,
+              total: ingredient.price * (ingredient.quantity + 1)
             }
-          : todo
+          : ingredient
       );
 
     case "DEC_QUANTITY":
-      const todoCurr = state.find(({ id }) => id === action.id);
-      if (todoCurr.quantity === 1) {
+      const ingredientCurr = state.find(({ id }) => id === action.id);
+      if (ingredientCurr.quantity === 1) {
         return state.filter(({ id }) => id !== action.id);
       }
-      return state.map(todo =>
-        todo.id === action.id
+      return state.map(ingredient =>
+        ingredient.id === action.id
           ? {
-              ...todo,
-              quantity: todo.quantity - 1,
-              total: todo.price * (todo.quantity - 1)
+              ...ingredient,
+              quantity: ingredient.quantity - 1,
+              total: ingredient.price * (ingredient.quantity - 1)
             }
-          : todo
+          : ingredient
       );
 
     case "CHANGE_STORE":
-      return state.map(todo =>
-        todo.id === action.id
+      return state.map(ingredient =>
+        ingredient.id === action.id
           ? {
-              ...todo,
+              ...ingredient,
               store: action.store.name,
               delivery: action.store.time,
-              price: action.store.prices[todo.text],
-              total: action.store.prices[todo.text] * todo.quantity
+              price: action.store.prices[ingredient.text],
+              total: action.store.prices[ingredient.text] * ingredient.quantity
             }
-          : todo
+          : ingredient
       );
 
     default:
